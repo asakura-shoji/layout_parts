@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.main {
+ table-layout: auto;
+ width: 100%;
+}
+
+table,td {
+  text-align: center;
+  border: 1px solid #dedede;
+  padding: 10px 0 10px 0;
+}
+
+.block1 {
+  background-color: #2244aa;
+  color: #fff;
+}
+
+.item {
+  background-color: #2244aa;
+  color: #fff;
+}
+
+.main tr:nth-child(2n+1) {
+  background-color: #ecf1f2;
+}
+
+.main tr:nth-child(5) {
+  border-bottom: 2px dashed #000;
+}
+
+.main tr:first-child {
+  background-color: #2244aa;
+}
 
 /* 回答はここに書いてね */
