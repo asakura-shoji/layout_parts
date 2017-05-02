@@ -1,5 +1,9 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-
+.main {
+  width: 900px;
+  background-color: #eff3f4;
+  margin: 0 auto;
+}
 /* 回答はここに書いてね */
