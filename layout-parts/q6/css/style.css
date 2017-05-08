@@ -2,4 +2,150 @@
 
 /* 回答はここに書いてね */
 
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+
+.common-layout {
+  margin-right: 10px;
+  float: left;
+  margin-right: 10px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #00bcd4;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.common1 {
+  height: 26px;
+  font-size: 16px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.common2 {
+  height: 32px;
+  font-size: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.common3 {
+  height: 38px;
+  font-size: 24px;
+  padding: 0 25px;
+  border-radius: 7px;
+}
+
+.error-layout {
+  margin-right: 10px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  color: #fff;
+  background-color: #ff4081;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.error1 {
+  height: 26px;
+  font-size: 16px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.error2 {
+  height: 32px;
+  font-size: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.error3 {
+  height: 38px;
+  font-size: 24px;
+  padding: 0 25px;
+  border-radius: 5px;
+}
+
+.disabled-layout {
+  margin-right: 10px;
+  float: left;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  color: #fff;
+  background-color: #e5e5e5;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+.disabled1 {
+  height: 26px;
+  font-size: 16px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.disabled2 {
+  height: 32px;
+  font-size: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.disabled3 {
+  height: 38px;
+  font-size: 24px;
+  padding: 0 25px;
+  border-radius: 7px;
+}
+
+.shadow-layout {
+  margin-right: 10px;
+  float: left;
+  font-weight: bold;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
+}
+
+.shadow1 {
+  height: 26px;
+  font-size: 16px;
+  padding: 0 15px;
+  border-radius: 3px;
+}
+
+.shadow2 {
+  height: 32px;
+  font-size: 20px;
+  padding: 0 20px;
+  border-radius: 5px;
+}
+
+.shadow3 {
+  height: 38px;
+  font-size: 24px;
+  padding: 0 25px;
+  border-radius: 7px;
+}
+
+.clearfix::before,
+.clearfix::after {
+  display: block;
+  content: '';
+  clear: both;
+}
 /* 回答はここに書いてね */

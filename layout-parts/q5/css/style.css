@@ -24,7 +24,7 @@
   vertical-align: middle;
 }
 
-.main2 p {
+.inner1 {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
@@ -39,7 +39,7 @@
   align-items: center;
 }
 
-.main3 p {
+.inner2 {
   display: inline-block;
   padding: 10px;
   background-color: #fff;
@@ -49,7 +49,7 @@
   position: relative;
 }
 
-.main4 p {
+.inner3 {
   position: absolute;
   top: 0;
   left: 0;
@@ -64,7 +64,7 @@
   position: relative;
 }
 
-.main5 p {
+.inner4 {
   position: absolute;
   top: 50%;
   left: 50%;
