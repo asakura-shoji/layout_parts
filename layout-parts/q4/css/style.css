@@ -24,6 +24,7 @@
 }
 
 .box9 {
+  position: fixed;
   top: 10px;
   left: 10px;
   background-color: #2b69a3;
@@ -39,7 +40,7 @@
 .box8::after {
   content: "";
   position: absolute;
-  top: 0px;
+  top: 0;
   left: 80px;
   background-color: #ffefd3;
   width: 20px;

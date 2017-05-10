@@ -12,13 +12,12 @@
   padding: 20px;
 }
 
-.block > li  {
+.block > li {
   width: 230px;
   background-color: #3274ae;
   float: left;
   padding: 20px;
   margin-left: 20px;
-
 }
 
 .item1 {

@@ -6,19 +6,20 @@
  width: 100%;
 }
 
-table,td {
+table,
+td {
   text-align: center;
   border: 1px solid #dedede;
-  padding: 10px 0 10px 0;
+  padding: 10px 0;
 }
 
 .block1 {
-  background-color: #2244aa;
+  background-color: #24a;
   color: #fff;
 }
 
 .item {
-  background-color: #2244aa;
+  background-color: #24a;
   color: #fff;
 }
 
@@ -31,7 +32,7 @@ table,td {
 }
 
 .main tr:first-child {
-  background-color: #2244aa;
+  background-color: #24a;
 }
 
 /* 回答はここに書いてね */

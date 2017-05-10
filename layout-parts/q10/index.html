@@ -24,8 +24,10 @@
         <!--
         Webサイトを作る際、コンタクトフォームを実装する機会がとても多くあります。
         Q7で出てきた、inputやtextarea要素を使えばフォームをつくることができます。
-        この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?q10_1=...」という感じの文字列が追加されているのがわかると思います。
-        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、今回はHTMLを使って送信するまでをやってもらいます。
+        この課題では、実際にユーザーが入力した値を送れる状態まで作っていただきます。answerの方で確認していただきたいのですが、
+        全ての入力フォームを適当に記述してsubmitボタンを押してみてください。URL欄の最後に「?q10_1=...」という感じの文字列が追加されているのがわかると思います。
+        これが、入力した値を送信できている状態です。本来ではこの値をサーバーサイドで受け取ってフォームの処理をするのですが、
+        今回はHTMLを使って送信するまでをやってもらいます。
         answerで入力した値を自分で作ったフォームに全く同じように入力した場合、URLが全く同じように変わる状態にしてください。
         また赤の*(アスタリスク)の部分は必須項目です。必須項目を空にしたまま送信しようとするとアラートが表示される処理も再現しましょう。
 
@@ -37,7 +39,59 @@
         ・input(type="submit")
         -->
         <!-- 回答はここに書いてね -->
+        <form class="frame">
 
+            <div class="title1">
+              <div class="title-txt">Form Execise</div>
+            </div>
+          <div class="wrap clearfix">
+            <div class="main">
+              <ul class="menu">
+                <li class="item1 clearfix">
+                  <div class="item1-txt">name<span class="sub">*</span>
+                  </div>
+                  <div class="form">
+                    <input class="form-box none" type="text" name="name" required="">
+                  </div>
+                </li>
+                <li class="item2 clearfix">
+                  <div class="item2-txt">Sex</div>
+                  <div class="form">
+                    <label class="radio">
+                      <input class="radio-btn" type="radio" name="sex" value="male">
+                      <span class="radio-btn2">male</span>
+                    </label>
+                    <label class="radio">
+                      <input class="radio-btn" type="radio" name="sex" value="female">
+                      <span class="radio-btn2">male</span>
+                    </label>
+                  </li>
+                  <li class="item3 clearfix">
+                    <div class="item1-txt">Email
+                      <span class="sub">*</span>
+                    </div>
+                    <div class="form">
+                      <input class="form-box none" type="text" name="name" placeholder="ex)hoge@gmail.com" required="">
+                    </div>
+                  </li>
+                  <li class="item4 clearfix">
+                    <div class="item1-txt">Telephone
+                    </div>
+                    <div class="form">
+                      <input class="form-box none" type="text" name="name" placeholder="ex)08012345678">
+                    </div>
+                  </li>
+                </ul>
+                <div class="submit-btn">
+                  <input class="submit-bottom" type="submit" value="submit">
+                </div>
+              </div>
+              <div class="textarea">
+                <textarea class="massage none" name="message" placeholder="Please fill in the message..."></textarea>
+              </div>
+            </div>
+          </div>
+        </form>
         <!-- 回答はここに書いてね -->
     </div>
 </div>

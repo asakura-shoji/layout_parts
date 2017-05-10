@@ -2,4 +2,153 @@
 
 /* 回答はここに書いてね */
 
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.container {
+  text-align: center;
+}
+
+.box1 {
+  display: inline-block;
+  margin: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+}
+
+.text {
+  padding: 5px;
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.text:focus {
+  box-shadow: 0  6px #00bcd4
+}
+
+.box ::-webkit-input-placeholder {
+  color: #00bcd4;
+}
+
+.text2 {
+  height: 40px;
+  padding: 5px;
+  border: 1px solid #00BCD4;
+  border-radius: 5px;
+  resize: none;
+}
+
+.text-color ::-webkit-input-placeholder {
+  color: #7f7f7f;
+}
+
+.radio-icon,
+.label-checkbox input[type="checkbox"] {
+  display: none;
+}
+
+.radio-text,
+.checkbox-btn {
+  position: relative;
+  display: inline-block;
+  padding: 3px 3px 3px 22px;
+}
+
+.label,
+.label-checkbox {
+  cursor: pointer;
+}
+
+.radio-text:before {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  content: "";
+}
+
+.radio-text:after {
+  display: none;
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  width: 8px;
+  height: 8px;
+  margin-top: -4px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  content: "";
+}
+
+.radio-icon:checked + .radio-text:after {
+  display: block;
+}
+
+.checkbox-btn:before {
+  position: absolute;
+  content: "";
+  top: 50%;
+  left: 0;
+  width: 14px;
+  height: 14px;
+  margin-top: -8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+}
+
+.checkbox:checked + .checkbox-btn:after {
+  position: absolute;
+  content: "";
+  top: 5px;
+  left: 3px;
+  width: 13px;
+  height: 5px;
+  border-bottom: 2px solid #00bcd4;
+  border-left: 2px solid #00bcd4;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.select-box select {
+  position: relative;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 5px 30px 5px 5px;
+  font-size: 14px;
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.btn {
+  padding: 5px 10px;
+  border: 1px solid #00bcd4;
+  border-radius: 5px;
+  color: #00bcd4;
+  cursor: pointer;
+    font-size: 16px;
+}
+
+.btn:active {
+  background-color: #00bcd4;
+  color: #fff;
+}
+
 /* 回答はここに書いてね */

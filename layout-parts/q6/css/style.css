@@ -11,110 +11,34 @@
 }
 
 .common-layout {
-  display: flex;
-  align-items: center;
   text-decoration: none;
   margin-right: 10px;
-  float: left;
   font-weight: bold;
   text-align: center;
   color: #fff;
   background-color: #00bcd4;
 }
 
-.common1 {
-  height: 26px;
-  font-size: 16px;
-  padding: 0 15px;
-  border-radius: 3px;
-}
-
-.common2 {
-  height: 32px;
-  font-size: 20px;
-  padding: 0 20px;
-  border-radius: 5px;
-}
-
-.common3 {
-  height: 38px;
-  font-size: 24px;
-  padding: 0 25px;
-  border-radius: 7px;
-}
-
 .error-layout {
-  display: flex;
-  align-items: center;
   text-decoration: none;
   margin-right: 10px;
-  float: left;
   font-weight: bold;
   text-align: center;
   color: #fff;
   background-color: #ff4081;
 }
 
-.error1 {
-  height: 26px;
-  font-size: 16px;
-  padding: 0 15px;
-  border-radius: 3px;
-}
-
-.error2 {
-  height: 32px;
-  font-size: 20px;
-  padding: 0 20px;
-  border-radius: 5px;
-}
-
-.error3 {
-  height: 38px;
-  font-size: 24px;
-  padding: 0 25px;
-  border-radius: 5px;
-}
-
 .disabled-layout {
-  display: flex;
-  align-items: center;
   text-decoration: none;
   margin-right: 10px;
-  float: left;
   font-weight: bold;
   text-align: center;
   color: #fff;
   background-color: #e5e5e5;
 }
 
-.disabled1 {
-  height: 26px;
-  font-size: 16px;
-  padding: 0 15px;
-  border-radius: 3px;
-}
-
-.disabled2 {
-  height: 32px;
-  font-size: 20px;
-  padding: 0 20px;
-  border-radius: 5px;
-}
-
-.disabled3 {
-  height: 38px;
-  font-size: 24px;
-  padding: 0 25px;
-  border-radius: 7px;
-}
-
 .shadow-layout {
-  display: flex;
-  align-items: center;
   text-decoration: none;
-  margin-right: 10px;
-  float: left;
   font-weight: bold;
   text-align: center;
   color: #000;
@@ -122,24 +46,30 @@
   box-shadow: 0 1px 6px rgba(0, 0, 0, .12);
 }
 
+.common1,
+.error1,
+.disabled1,
 .shadow1 {
-  height: 26px;
   font-size: 16px;
-  padding: 0 15px;
+  padding: 5px 15px;
   border-radius: 3px;
 }
 
+.common2,
+.error2,
+.disabled2,
 .shadow2 {
-  height: 32px;
   font-size: 20px;
-  padding: 0 20px;
+  padding: 6px 20px;
   border-radius: 5px;
 }
 
+.common3,
+.error3,
+.disabled3,
 .shadow3 {
-  height: 38px;
   font-size: 24px;
-  padding: 0 25px;
+  padding: 7px 25px;
   border-radius: 7px;
 }
 
